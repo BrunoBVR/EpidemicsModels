@@ -1,4 +1,5 @@
 # SIR model - OO approach
+# Bruno Vieira Ribeiro
 
 import numpy as np
 import matplotlib.pyplot as plt

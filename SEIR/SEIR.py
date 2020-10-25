@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Bruno Vieira Ribeiro - SEIR for COVID-19 numerical simulation
 # IFB - 2020
 
@@ -11,8 +5,6 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-# import mpld3
-# mpld3.enable_notebook()
 
 # Defines functions for this project
 from funcs import *
@@ -25,12 +17,10 @@ from funcs import *
 # t_inf (infectious time = 1.61 day (avg) )
 # R0 = basic reproduction number (average of individuals infected by an infected individual during infectation)
 # R0 approx 2.74
-# mor: Mortalitiy in %
 
 t_inc = 5.0
 t_inf = 1.61
 R0 = 2.74
-mor = 1.0
 
             # Equation parameters
 # Parameters in F: beta, sigma, gamma
@@ -161,21 +151,6 @@ plt.xlabel('Time (days)')
 plt.ylabel('Infected individuals')
 plt.grid()
 plt.show()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[3]:
 
 
 # Quarantine period
